@@ -1,0 +1,9 @@
+{
+  "engines": {
+    "arangodb": "^3.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "setup": "scripts/setup.js"
+  }
+}
