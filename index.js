@@ -21,12 +21,14 @@ router.post('/createDB', function (req,res) {
     // If user does exist send error response.
       res.send("User already exists, please supply new username.").status(409);
   } catch(err) {
+
     // Handle duplicate database name.
     try {
       db._createDatabase(dbName);
     } catch (err) {
       res.send("Database already exists or invalid name supplied, please supply new dbName.").status(400);
     }
+
     users.save(username, password, true);
     // Grants user access only to newly created database
     users.grantDatabase(username, dbName, 'rw');
@@ -37,7 +39,6 @@ router.post('/createDB', function (req,res) {
 .response(joi.object().required(), 'Returns database name, username, and password.')
 .summary('Creates a database and returns name and login credentials.')
 .description('Creates a database with potentially randomly generated dbName, username, and password. ');
-
 
 function randomStringGenerator() {
   // Database name must start with letter.
