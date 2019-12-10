@@ -4,6 +4,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "setup": "scripts/setup.js"
+    "setup": "scripts/setup.js",
+    "expire":"scripts/expire.js"
   }
 }
