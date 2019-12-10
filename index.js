@@ -6,6 +6,8 @@ const users = require("@arangodb/users");
 const router = createRouter();
 const joi = require('joi');
 
+const aisisInstances = "aisisInstances"
+
 module.context.use(router);
 
 router.post('/createDB', function (req,res) {
@@ -13,6 +15,7 @@ router.post('/createDB', function (req,res) {
   const dbName = data.dbName ? data.dbName : randomStringGenerator();
   const username = data.username ? data.username : randomStringGenerator();
   const password = data.password ? data.password : randomStringGenerator();
+  const email = data.email ? data.email : 'noreply@arangodb.com'
 
 
 // If user doesn't exist, create the user
@@ -29,12 +32,27 @@ router.post('/createDB', function (req,res) {
       res.send("Database already exists or invalid name supplied, please supply new dbName.").status(400);
     }
 
+
     users.save(username, password, true);
+    // Grants user access only to newly created database
+    users.grantDatabase(username, dbName, 'rw');
+
+
+
+    // @TODO: obtain hostname and port of external deployment if necessary.
+    // Returns hostname and port
     let hostname = req.hostname
     let port = req.port
 
-    // Grants user access only to newly created database
-    users.grantDatabase(username, dbName, 'rw');
+    let insertDoc = query`INSERT {
+      "dbName": ${dbName},
+      "username": ${username},
+      "hostname": ${hostname},
+      "port": ${port},
+      "email": ${email},
+      "timestamp": DATE_NOW()
+    } INTO aisisInstances`
+
     res.send({dbName, username, password, hostname, port});
   }
 })
