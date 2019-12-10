@@ -30,9 +30,12 @@ router.post('/createDB', function (req,res) {
     }
 
     users.save(username, password, true);
+    let hostname = req.hostname
+    let port = req.port
+
     // Grants user access only to newly created database
     users.grantDatabase(username, dbName, 'rw');
-    res.send({dbName, username, password});
+    res.send({dbName, username, password, hostname, port});
   }
 })
 .body(joi.object().required(), 'Creates a new database, optionally provide dbName, username, or password ')
