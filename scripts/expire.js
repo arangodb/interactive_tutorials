@@ -21,7 +21,6 @@ INSERT {email: i.email, username: i.username, dbName: i.dbName} INTO expiredtuto
 REMOVE { _key: i._key } IN tutorialInstances`;
 
 function removeDatabase(dbName, key, username) {
-  console.log(db._engineStats());
   users.remove(username);
   db._dropDatabase(dbName);
   expired.push(key);
