@@ -1,6 +1,6 @@
 {
   "engines": {
-    "arangodb": "^3.5.0"
+    "arangodb": "^3.6.0"
   },
   "main": "index.js",
   "scripts": {

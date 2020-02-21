@@ -6,11 +6,11 @@ const users = require("@arangodb/users");
 const router = createRouter();
 const joi = require('joi');
 
-const aisisInstances = "aisisInstances"
+const collectionName = db._collection("tutorialInstances");
 
 module.context.use(router);
 
-router.post('/createDB', function (req,res) {
+router.post('/tutorialDB', function (req,res) {
   const data = req.body;
   const dbName = data.dbName ? data.dbName : randomStringGenerator();
   const username = data.username ? data.username : randomStringGenerator();
@@ -51,7 +51,7 @@ router.post('/createDB', function (req,res) {
       "port": ${port},
       "email": ${email},
       "timestamp": DATE_NOW()
-    } INTO aisisInstances`
+    } INTO ${collectionName}`;
 
     res.send({dbName, username, password, hostname, port});
   }
@@ -63,5 +63,5 @@ router.post('/createDB', function (req,res) {
 
 function randomStringGenerator() {
   // Database name must start with letter.
-  return  "ML" + Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+  return  "TUT" + Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
 }
