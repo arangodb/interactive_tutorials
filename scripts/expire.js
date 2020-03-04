@@ -2,7 +2,7 @@
 const { aql, query, db } = require("@arangodb");
 const users = require("@arangodb/users");
 
-const expirationTime = (4 * 60 * 60 * 1000) // 4 hours
+const expirationTime = (4 * 60 * 60 * 1000) // 4 hours or use (30 * 1000) for 30 seconds
 const expired = [];
 
 let dbs = query`
@@ -16,12 +16,18 @@ dbs.toArray().map((d) => {
 let cleanupCollection = query`
 FOR key IN ${expired}
 FOR i IN tutorialInstances
-FILTER i._key
+FILTER i._key == key
 INSERT {email: i.email, username: i.username, dbName: i.dbName} INTO expiredtutorialInstances
-REMOVE { _key: i._key } IN tutorialInstances`;
+REMOVE { _key: key } IN tutorialInstances`;
 
 function removeDatabase(dbName, key, username) {
-  users.remove(username);
-  db._dropDatabase(dbName);
-  expired.push(key);
+  if (users.exists(username)){
+    users.remove(username);
+  }
+  try {
+    db._dropDatabase(dbName);
+    expired.push(key);
+  } catch (err) {
+
+  }
 }
