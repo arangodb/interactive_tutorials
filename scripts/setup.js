@@ -21,6 +21,6 @@ queue.push(
   {
     repeatTimes: Infinity,
     repeatUntil: -1, // Forever
-    repeatDelay: (60 * 60 * 1000) // Every hour
+    repeatDelay: (60 * 60 * 1000) // Every hour or use (60 * 1000) for every minute
   }
 );

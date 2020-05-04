@@ -17,7 +17,7 @@ let cleanupCollection = query`
 FOR key IN ${expired}
 FOR i IN tutorialInstances
 FILTER i._key == key
-INSERT {email: i.email, username: i.username, dbName: i.dbName} INTO expiredtutorialInstances
+INSERT {email: i.email, username: i.username, dbName: i.dbName, timestamp: i.timestamp, tutorialName: i.tutorialName} INTO expiredtutorialInstances
 REMOVE { _key: key } IN tutorialInstances`;
 
 function removeDatabase(dbName, key, username) {
@@ -31,3 +31,4 @@ function removeDatabase(dbName, key, username) {
 
   }
 }
+

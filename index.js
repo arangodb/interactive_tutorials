@@ -16,6 +16,7 @@ router.post('/tutorialDB', function (req,res) {
   const username = data.username ? data.username : randomStringGenerator();
   const password = data.password ? data.password : randomStringGenerator();
   const email = data.email ? data.email : 'noreply@arangodb.com'
+  const tutorialName = data.tutorialName ? data.tutorialName : 'Not Supplied'
 
 
 // If user doesn't exist, create the user
@@ -50,7 +51,8 @@ router.post('/tutorialDB', function (req,res) {
       "hostname": ${hostname},
       "port": ${port},
       "email": ${email},
-      "timestamp": DATE_NOW()
+      "timestamp": DATE_NOW(),
+      "tutorialName": ${tutorialName}
     } INTO ${collectionName}`;
 
     res.send({dbName, username, password, hostname, port});
