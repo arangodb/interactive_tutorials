@@ -1,0 +1,10 @@
+{
+  "engines": {
+    "arangodb": "^3.6.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "setup": "scripts/setup.js",
+    "expire":"scripts/expire.js"
+  }
+}
