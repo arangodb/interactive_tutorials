@@ -36,6 +36,8 @@ We have provided a template that will help you quickly get started creating a no
 
 Just open up the [Template.ipynb](https://github.com/arangodb/interactive_tutorials/blob/master/Template.ipynb) file to learn more about what it takes to get started or you can use the [Template_basic.ipynb](https://github.com/arangodb/interactive_tutorials/blob/master/Template_basic.ipynb) file to get a simple notebook with only the connection code done for you.
 
+Once your notebook is ready for the world to see, you can place it in the [community_notebooks](https://github.com/arangodb/interactive_tutorials/tree/master/community_notebooks) folder and create a pull request.
+
 
 
 
