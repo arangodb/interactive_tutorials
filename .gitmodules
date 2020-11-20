@@ -1,0 +1,3 @@
+[submodule "ArangoML_Notebooks"]
+	path = ArangoML_Notebooks
+	url = https://github.com/arangoml/arangopipe.git
