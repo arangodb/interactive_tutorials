@@ -8,7 +8,7 @@ Here you will find tutorials and interactive notebooks for ArangoDB features. Th
 
 These notebooks are interactive and take the hands-on learning approach, so feel free to play around and change things. Each notebook provides an intoduction to its covered topics along with the ability to immediately see it in action. 
 
-Most notebooks were developed with Google Colab in mind and many have an ![`Open in Colab`](https://colab.research.google.com/assets/colab-badge.svg) button. 
+Most notebooks were developed with Google Colab in mind and many have an [![](https://colab.research.google.com/assets/colab-badge.svg)](#) button. 
 
 The notebooks cover a wide range of topics including:
 * AQL Fundamentals
