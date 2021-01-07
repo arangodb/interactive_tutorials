@@ -10,15 +10,20 @@ These notebooks are interactive and take the hands-on learning approach, so feel
 
 Most notebooks were developed with Google Colab in mind and many have an [![](https://colab.research.google.com/assets/colab-badge.svg)](#) button. 
 
-The notebooks cover a wide range of topics including:
-* AQL Fundamentals
-* ArangoSearch
-* Best Practices
-* SatelliteGraphs
-* Schema Validation
-* ArangoML & Machine Learning
-* Knowledge Graphs
-* More to come!
+[The notebooks folder](https://github.com/arangodb/interactive_tutorials/tree/master/notebooks) has tutorials covering a wide range of topics including:
+* [AQL CRUD Part 1](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlCrudTutorial.ipynb)
+* [AQL CRUD Part 2](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlPart2Tutorial.ipynb)
+* [AQL Geospatial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlGeospatialTutorial.ipynb)
+* [AQL Joins](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlJoinTutorial.ipynb)
+* [AQL Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlTraversalTutorial.ipynb)
+* [Game of Thrones AQL Tutorial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_GOT_Tutorial.ipynb)
+* [NetworkX Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
+* [ArangoSearch](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearch.ipynb)
+* [Best Practices Guide](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/BestPractices.ipynb)
+* [Fuzzy Search](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/FuzzySearch.ipynb)
+* [SatelliteGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/SatelliteGraphs.ipynb)
+* [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
+* [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
 
 Do you have some topics you would like to see a notebook for? Well, read on to the contribute section for details on how to submit a notebook of your own. 
 
