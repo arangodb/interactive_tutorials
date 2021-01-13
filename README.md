@@ -24,6 +24,7 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 * [SatelliteGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/SatelliteGraphs.ipynb)
 * [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
 * [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
+* [Using R with ArangoDB](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/R_ArangoDB_Managed_Service_Notebook.ipynb)
 
 Do you have some topics you would like to see a notebook for? Well, read on to the contribute section for details on how to submit a notebook of your own. 
 
