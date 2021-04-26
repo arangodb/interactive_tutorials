@@ -1,0 +1,62 @@
+2021-04-22 15:20:23,846 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-04-22 15:20:23,846 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-04-22 15:20:27,638 - arangopipe_admin_logger - INFO - Managed service database was created !
+2021-04-22 15:33:58,479 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-04-22 15:33:58,480 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-04-22 15:34:13,205 - arangopipe_admin_logger - INFO - Managed service database was created !
+2021-04-22 16:55:34,810 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-22 16:55:34,810 - arangopipe_admin_logger - INFO - DB name for connection: MLyd83vy740oixvbx5jsgsm
+2021-04-22 16:55:34,812 - arangopipe_admin_logger - INFO - user name for connection: MLmtxzl7xfid8aqyz2kjojud
+2021-04-22 16:55:34,812 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-22 16:55:34,813 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-22 17:19:51,658 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-04-22 17:19:51,658 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-04-22 17:20:02,203 - arangopipe_admin_logger - INFO - Managed service database was created !
+2021-04-22 17:21:16,479 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-22 17:21:16,480 - arangopipe_admin_logger - INFO - DB name for connection: MLtn4mah3dg0amueierfii4
+2021-04-22 17:21:16,480 - arangopipe_admin_logger - INFO - user name for connection: MLzrpm72a7m6qh0a00gdbnbt
+2021-04-22 17:21:16,480 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-22 17:21:16,481 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-22 18:53:24,729 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-22 18:53:24,729 - arangopipe_admin_logger - INFO - DB name for connection: MLtn4mah3dg0amueierfii4
+2021-04-22 18:53:24,729 - arangopipe_admin_logger - INFO - user name for connection: MLzrpm72a7m6qh0a00gdbnbt
+2021-04-22 18:53:24,730 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-22 18:53:24,730 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-23 16:00:39,396 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-23 16:00:39,396 - arangopipe_admin_logger - INFO - DB name for connection: MLtn4mah3dg0amueierfii4
+2021-04-23 16:00:39,396 - arangopipe_admin_logger - INFO - user name for connection: MLzrpm72a7m6qh0a00gdbnbt
+2021-04-23 16:00:39,396 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-23 16:00:39,396 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-23 16:14:16,840 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-23 16:14:16,841 - arangopipe_admin_logger - INFO - DB name for connection: MLtn4mah3dg0amueierfii4
+2021-04-23 16:14:16,841 - arangopipe_admin_logger - INFO - user name for connection: MLzrpm72a7m6qh0a00gdbnbt
+2021-04-23 16:14:16,841 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-23 16:14:16,841 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-23 16:17:21,750 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-23 16:17:21,750 - arangopipe_admin_logger - INFO - DB name for connection: MLtn4mah3dg0amueierfii4
+2021-04-23 16:17:21,750 - arangopipe_admin_logger - INFO - user name for connection: MLzrpm72a7m6qh0a00gdbnbt
+2021-04-23 16:17:21,750 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-23 16:17:21,750 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-26 12:26:14,019 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-04-26 12:26:14,019 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-04-26 12:26:21,308 - arangopipe_admin_logger - INFO - Managed service database was created !
+2021-04-26 12:32:50,154 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-26 12:32:50,154 - arangopipe_admin_logger - INFO - DB name for connection: ML5pr0mmr84ojtsf5802vhr
+2021-04-26 12:32:50,154 - arangopipe_admin_logger - INFO - user name for connection: MLykj7u11yievbej373ypxg
+2021-04-26 12:32:50,154 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-26 12:32:50,154 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-26 12:33:15,640 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-26 12:33:15,640 - arangopipe_admin_logger - INFO - DB name for connection: ML5pr0mmr84ojtsf5802vhr
+2021-04-26 12:33:15,640 - arangopipe_admin_logger - INFO - user name for connection: MLykj7u11yievbej373ypxg
+2021-04-26 12:33:15,640 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-26 12:33:15,640 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-26 13:10:55,780 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-26 13:10:55,780 - arangopipe_admin_logger - INFO - DB name for connection: ML5pr0mmr84ojtsf5802vhr
+2021-04-26 13:10:55,780 - arangopipe_admin_logger - INFO - user name for connection: MLykj7u11yievbej373ypxg
+2021-04-26 13:10:55,780 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-26 13:10:55,781 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-26 13:12:21,716 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-04-26 13:12:21,716 - arangopipe_admin_logger - INFO - DB name for connection: ML5pr0mmr84ojtsf5802vhr
+2021-04-26 13:12:21,716 - arangopipe_admin_logger - INFO - user name for connection: MLykj7u11yievbej373ypxg
+2021-04-26 13:12:21,716 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-04-26 13:12:21,716 - arangopipe_admin_logger - DEBUG - Connection reuse: True
