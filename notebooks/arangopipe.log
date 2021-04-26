@@ -139,3 +139,20 @@
 2021-04-26 13:12:33,260 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/164930655600182387068357355612293245489', '_key': '164930655600182387068357355612293245489', '_rev': '_cOyfNHK--A'}
 2021-04-26 13:12:33,445 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/164930655600182387068357355612293245489-164930655600182387068357355612293245489', '_key': '164930655600182387068357355612293245489-164930655600182387068357355612293245489', '_rev': '_cOyfN1e--A'}
 2021-04-26 13:12:33,693 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/164930655600182387068357355612293245489-605039725', '_key': '164930655600182387068357355612293245489-605039725', '_rev': '_cOyfOBC--A'}
+2021-04-26 14:54:09,881 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-04-26 14:54:10,500 - arangopipe_logger - INFO - The asset by name: retail analytics dataset was not found in Arangopipe!
+2021-04-26 14:54:10,712 - arangopipe_logger - INFO - Recording dataset dataset link {'_id': 'datasets/610950948', '_key': '610950948', '_rev': '_cOz8QTa---'}
+2021-04-26 14:54:11,180 - arangopipe_logger - INFO - The asset by name: retail analytics feature setl was not found in Arangopipe!
+2021-04-26 14:54:11,472 - arangopipe_logger - INFO - Recording featureset {'_id': 'featuresets/610950949', '_key': '610950949', '_rev': '_cOz8Q96---'}
+2021-04-26 14:54:11,761 - arangopipe_logger - INFO - Recording featureset dataset link {'_id': 'featureset_dataset/610950949-610950948', '_key': '610950949-610950948', '_rev': '_cOz8RQO---'}
+2021-04-26 14:54:11,976 - arangopipe_logger - INFO - The asset by name: Exploratory Data Analysis, phase I was not found in Arangopipe!
+2021-04-26 14:54:12,602 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/610950947-610950950', '_key': '610950947-610950950', '_rev': '_cOz8SJm---'}
+2021-04-26 14:54:12,642 - arangopipe_logger - INFO - Run info {'_key': '148689643222679635913532638276729219824', 'timestamp': '2021-04-26 14:54:12.642053', 'tag': 'Retail_Graph_Analytics'}
+2021-04-26 14:54:12,855 - arangopipe_logger - INFO - Recording run {'_id': 'run/148689643222679635913532638276729219824', '_key': '148689643222679635913532638276729219824', '_rev': '_cOz8SZC---'}
+2021-04-26 14:54:13,068 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/148689643222679635913532638276729219824-610950950', '_key': '148689643222679635913532638276729219824-610950950', '_rev': '_cOz8Smu---'}
+2021-04-26 14:54:13,572 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/148689643222679635913532638276729219824', '_key': '148689643222679635913532638276729219824', '_rev': '_cOz8Szu---'}
+2021-04-26 14:54:13,784 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/148689643222679635913532638276729219824-610950949', '_key': '148689643222679635913532638276729219824-610950949', '_rev': '_cOz8TTe---'}
+2021-04-26 14:54:14,412 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/148689643222679635913532638276729219824-148689643222679635913532638276729219824', '_key': '148689643222679635913532638276729219824-148689643222679635913532638276729219824', '_rev': '_cOz8Tgu---'}
+2021-04-26 14:54:15,565 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/148689643222679635913532638276729219824', '_key': '148689643222679635913532638276729219824', '_rev': '_cOz8UHu---'}
+2021-04-26 14:54:15,785 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/148689643222679635913532638276729219824-148689643222679635913532638276729219824', '_key': '148689643222679635913532638276729219824-148689643222679635913532638276729219824', '_rev': '_cOz8VQm---'}
+2021-04-26 14:54:16,000 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/148689643222679635913532638276729219824-610950948', '_key': '148689643222679635913532638276729219824-610950948', '_rev': '_cOz8Ve----'}

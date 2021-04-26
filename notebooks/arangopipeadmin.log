@@ -60,3 +60,6 @@
 2021-04-26 13:12:21,716 - arangopipe_admin_logger - INFO - user name for connection: MLykj7u11yievbej373ypxg
 2021-04-26 13:12:21,716 - arangopipe_admin_logger - INFO - A specific password was requested !
 2021-04-26 13:12:21,716 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-04-26 14:53:15,622 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-04-26 14:53:15,622 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-04-26 14:53:26,626 - arangopipe_admin_logger - INFO - Managed service database was created !
