@@ -7,7 +7,7 @@ Here you will find tutorials and interactive notebooks for ArangoDB features. Th
 ## Learn
 
 ### Machine Learning
-In addition to the notebooks listed below we have many example machine learning notebooks for each project in the [ArangoML repository](https://github.com/arangoml).
+In addition to the notebooks listed below we have many example machine learning notebooks for each project in the [ArangoML repositories](https://github.com/arangoml).
 
 ### ArangoDB 
 These notebooks are interactive and take the hands-on learning approach, so feel free to play around and change things. Each notebook provides an intoduction to its covered topics along with the ability to immediately see it in action. 
