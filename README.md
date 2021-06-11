@@ -50,7 +50,7 @@ Make a notebook of your own!
 
 We have provided a template that will help you quickly get started creating a notebook that can also generate a temporary database for fellow learners.
 
-Just open up the [Template.ipynb](https://github.com/arangodb/interactive_tutorials/blob/master/Template.ipynb) file to learn more about what it takes to get started or you can use the [Template_basic.ipynb](https://github.com/arangodb/interactive_tutorials/blob/master/Template_basic.ipynb) file to get a simple notebook with only the connection code done for you.
+Just open up the [Template.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template.ipynb) file to learn more about what it takes to get started or you can use the [Template_basic.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template_basic.ipynb) file to get a simple notebook with only the connection code done for you.
 
 Once your notebook is ready for the world to see, you can place it in the [community_notebooks](https://github.com/arangodb/interactive_tutorials/tree/master/community_notebooks) folder and create a pull request.
 
