@@ -38,7 +38,7 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 ### Feedback
 Do you have some topics you would like to see a notebook for? Well, read on to the contribute section for details on how to submit a notebook of your own. 
 
-You can also always drop us line at [learn@arangodb.com](mailto:learn@arangodb.com) or join us on our [community Slack channel](https://arangodb-community.slack.com/).
+You can also always drop us a line at [learn@arangodb.com](mailto:learn@arangodb.com) or join us on our [community Slack channel](https://arangodb-community.slack.com/).
 
 ## Contribute
 
