@@ -63,7 +63,7 @@ def connect(login):
     try:
         conn = Connection(arangoURL=url, username=login["username"], password=login["password"])
     except:
-        time.sleep(1)
+        time.sleep(5)
         conn = Connection(arangoURL=url, username=login["username"], password=login["password"])
     return conn
 
