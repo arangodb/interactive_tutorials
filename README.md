@@ -7,7 +7,10 @@ Here you will find tutorials and interactive notebooks for ArangoDB features. Th
 ## Learn
 
 ### Machine Learning
-In addition to the notebooks listed below we have many example machine learning notebooks for each project in the [ArangoML repositories](https://github.com/arangoml).
+In addition to the notebooks listed in the following section, we have example machine learning notebooks with [ArangoML](https://github.com/arangoml), including:
+* [ArangoML Pipeline](https://github.com/arangoml/arangopipe/tree/master/examples)
+* [ArangoDB NetworkX Adapter](https://github.com/arangoml/networkx-adapter/tree/master/examples)
+
 
 ### ArangoDB 
 These notebooks are interactive and take the hands-on learning approach, so feel free to play around and change things. Each notebook provides an intoduction to its covered topics along with the ability to immediately see it in action. 
@@ -53,11 +56,3 @@ We have provided a template that will help you quickly get started creating a no
 Just open up the [Template.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template.ipynb) file to learn more about what it takes to get started or you can use the [Template_basic.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template_basic.ipynb) file to get a simple notebook with only the connection code done for you.
 
 Once your notebook is ready for the world to see, you can place it in the [community_notebooks](https://github.com/arangodb/interactive_tutorials/tree/master/community_notebooks) folder and create a pull request.
-
-
-
-
-
-
-
-
