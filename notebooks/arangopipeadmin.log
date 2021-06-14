@@ -8,3 +8,30 @@
 2021-06-02 12:22:15,405 - arangopipe_admin_logger - INFO - user name for connection: MLathah4gprchmhtlbrostz8
 2021-06-02 12:22:15,405 - arangopipe_admin_logger - INFO - A specific password was requested !
 2021-06-02 12:22:15,405 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-06-14 13:15:03,286 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-06-14 13:15:03,286 - arangopipe_admin_logger - INFO - DB name for connection: MLqugvfcgt448hq4bpqccnw
+2021-06-14 13:15:03,287 - arangopipe_admin_logger - INFO - user name for connection: MLathah4gprchmhtlbrostz8
+2021-06-14 13:15:03,287 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-06-14 13:15:03,287 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-06-14 13:15:56,472 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-06-14 13:15:56,472 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-06-14 13:16:05,486 - arangopipe_admin_logger - INFO - Managed service database was created !
+2021-06-14 13:28:47,021 - arangopipe_admin_logger - INFO - DB name for connection: MLdbh4hasa3oatf4lg4g7cco
+2021-06-14 13:28:47,021 - arangopipe_admin_logger - INFO - user name for connection: MLcfvh1evlprdvddepbelt
+2021-06-14 13:28:47,021 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-06-14 13:28:47,022 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-06-14 13:28:47,022 - arangopipe_admin_logger - INFO - DB name preferrence: MLdbh4hasa3oatf4lg4g7cco
+2021-06-14 13:28:47,022 - arangopipe_admin_logger - INFO - DB user name preferrence: MLcfvh1evlprdvddepbelt
+2021-06-14 13:28:47,022 - arangopipe_admin_logger - INFO - Password preference for managed connection was indicated !
+2021-06-14 13:28:47,022 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-06-14 13:28:47,722 - arangopipe_admin_logger - ERROR - It appears that you are attempting to connecting using                              existing connection information. So either set reconnect = True when you create ArangoPipeAdmin or recreate a connection config and try again!
+2021-06-14 13:29:37,973 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-06-14 13:29:37,973 - arangopipe_admin_logger - INFO - DB name for connection: MLdbh4hasa3oatf4lg4g7cco
+2021-06-14 13:29:37,973 - arangopipe_admin_logger - INFO - user name for connection: MLcfvh1evlprdvddepbelt
+2021-06-14 13:29:37,973 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-06-14 13:29:37,973 - arangopipe_admin_logger - DEBUG - Connection reuse: True
+2021-06-14 13:33:27,500 - arangopipe_admin_logger - INFO - If a config is provided, it will be used for setting up the connection
+2021-06-14 13:33:27,501 - arangopipe_admin_logger - INFO - DB name for connection: MLdbh4hasa3oatf4lg4g7cco
+2021-06-14 13:33:27,501 - arangopipe_admin_logger - INFO - user name for connection: MLcfvh1evlprdvddepbelt
+2021-06-14 13:33:27,501 - arangopipe_admin_logger - INFO - A specific password was requested !
+2021-06-14 13:33:27,501 - arangopipe_admin_logger - DEBUG - Connection reuse: True
