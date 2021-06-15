@@ -25,6 +25,7 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 * [AQL Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlTraversalTutorial.ipynb)
 * [ArangoBnB Data Preparation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoBnB_simple_data_exploration.ipynb)
 * [ArangoSearch](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearch.ipynb)
+* [ArangoSearch Part 2: Advanced Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearchOnGraphs.ipynb)
 * [Best Practices Guide](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/BestPractices.ipynb)
 * [Fuzzy Search](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/FuzzySearch.ipynb)
 * [Game of Thrones AQL Tutorial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_GOT_Tutorial.ipynb)
