@@ -50,3 +50,135 @@
 2021-06-14 13:33:56,821 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/339231194065782849213478323792459375400', '_key': '339231194065782849213478323792459375400', '_rev': '_cekKaLG--_'}
 2021-06-14 13:33:57,400 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/339231194065782849213478323792459375400-339231194065782849213478323792459375400', '_key': '339231194065782849213478323792459375400-339231194065782849213478323792459375400', '_rev': '_cekKaWy--_'}
 2021-06-14 13:33:57,585 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/339231194065782849213478323792459375400-660849081', '_key': '339231194065782849213478323792459375400-660849081', '_rev': '_cekKa6y--A'}
+2021-06-17 13:08:08,938 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:08:10,167 - arangopipe_logger - INFO - The asset by name: Feature Selection Task_178585649963336496437256755392178218823 was not found in Arangopipe!
+2021-06-17 13:08:11,006 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/639427056-660918988', '_key': '639427056-660918988', '_rev': '_cfhl5iu---'}
+2021-06-17 13:08:11,026 - arangopipe_logger - INFO - Run info {'_key': '325414637758443978610332921515805695501', 'timestamp': '2021-06-17 13:08:11.026308', 'tag': 'Retail_Graph_Analytics'}
+2021-06-17 13:08:11,575 - arangopipe_logger - INFO - Recording run {'_id': 'run/325414637758443978610332921515805695501', '_key': '325414637758443978610332921515805695501', '_rev': '_cfhl5wW--A'}
+2021-06-17 13:08:11,826 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/325414637758443978610332921515805695501-660918988', '_key': '325414637758443978610332921515805695501-660918988', '_rev': '_cfhl6Sy--_'}
+2021-06-17 13:08:12,031 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/325414637758443978610332921515805695501', '_key': '325414637758443978610332921515805695501', '_rev': '_cfhl6ie--A'}
+2021-06-17 13:08:12,236 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/325414637758443978610332921515805695501-660849082', '_key': '325414637758443978610332921515805695501-660849082', '_rev': '_cfhl6vu--A'}
+2021-06-17 13:08:12,440 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/325414637758443978610332921515805695501-325414637758443978610332921515805695501', '_key': '325414637758443978610332921515805695501-325414637758443978610332921515805695501', '_rev': '_cfhl68a--A'}
+2021-06-17 13:08:12,645 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/325414637758443978610332921515805695501', '_key': '325414637758443978610332921515805695501', '_rev': '_cfhl7JG--A'}
+2021-06-17 13:08:12,850 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/325414637758443978610332921515805695501-325414637758443978610332921515805695501', '_key': '325414637758443978610332921515805695501-325414637758443978610332921515805695501', '_rev': '_cfhl7V2--A'}
+2021-06-17 13:08:13,056 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/325414637758443978610332921515805695501-660849081', '_key': '325414637758443978610332921515805695501-660849081', '_rev': '_cfhl7iu--_'}
+2021-06-17 13:10:53,188 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:10:53,603 - arangopipe_logger - INFO - The asset by name: retail analytics dataset was not found in Arangopipe!
+2021-06-17 13:10:54,005 - arangopipe_logger - INFO - Recording dataset dataset link {'_id': 'datasets/662892935', '_key': '662892935', '_rev': '_cfhoYiS---'}
+2021-06-17 13:10:54,315 - arangopipe_logger - INFO - The asset by name: retail analytics feature setl was not found in Arangopipe!
+2021-06-17 13:10:54,504 - arangopipe_logger - INFO - Recording featureset {'_id': 'featuresets/662892936', '_key': '662892936', '_rev': '_cfhoZOu---'}
+2021-06-17 13:10:54,965 - arangopipe_logger - INFO - Recording featureset dataset link {'_id': 'featureset_dataset/662892936-662892935', '_key': '662892936-662892935', '_rev': '_cfhoZaa---'}
+2021-06-17 13:10:55,154 - arangopipe_logger - INFO - The asset by name: Exploratory Data Analysis, phase I was not found in Arangopipe!
+2021-06-17 13:10:56,021 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/660919089-662892937', '_key': '660919089-662892937', '_rev': '_cfhoabW---'}
+2021-06-17 13:10:56,043 - arangopipe_logger - INFO - Run info {'_key': '141809662912135107330013791968236408797', 'timestamp': '2021-06-17 13:10:56.042883', 'tag': 'Retail_Graph_Analytics'}
+2021-06-17 13:10:56,485 - arangopipe_logger - INFO - Recording run {'_id': 'run/141809662912135107330013791968236408797', '_key': '141809662912135107330013791968236408797', '_rev': '_cfhoa6i---'}
+2021-06-17 13:10:56,690 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/141809662912135107330013791968236408797-662892937', '_key': '141809662912135107330013791968236408797-662892937', '_rev': '_cfhobWa---'}
+2021-06-17 13:10:56,895 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/141809662912135107330013791968236408797', '_key': '141809662912135107330013791968236408797', '_rev': '_cfhobjK---'}
+2021-06-17 13:10:57,099 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/141809662912135107330013791968236408797-662892936', '_key': '141809662912135107330013791968236408797-662892936', '_rev': '_cfhobwG---'}
+2021-06-17 13:10:57,287 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/141809662912135107330013791968236408797-141809662912135107330013791968236408797', '_key': '141809662912135107330013791968236408797-141809662912135107330013791968236408797', '_rev': '_cfhob8q---'}
+2021-06-17 13:10:57,509 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/141809662912135107330013791968236408797', '_key': '141809662912135107330013791968236408797', '_rev': '_cfhocIS---'}
+2021-06-17 13:10:57,714 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/141809662912135107330013791968236408797-141809662912135107330013791968236408797', '_key': '141809662912135107330013791968236408797-141809662912135107330013791968236408797', '_rev': '_cfhocWO---'}
+2021-06-17 13:10:57,919 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/141809662912135107330013791968236408797-662892935', '_key': '141809662912135107330013791968236408797-662892935', '_rev': '_cfhocjW---'}
+2021-06-17 13:17:00,619 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:17:01,301 - arangopipe_logger - INFO - The asset by name: retail analytics dataset was not found in Arangopipe!
+2021-06-17 13:17:01,749 - arangopipe_logger - INFO - Recording dataset dataset link {'_id': 'datasets/662893011', '_key': '662893011', '_rev': '_cfhu_ni---'}
+2021-06-17 13:17:01,951 - arangopipe_logger - INFO - The asset by name: retail analytics feature setl was not found in Arangopipe!
+2021-06-17 13:17:02,148 - arangopipe_logger - INFO - Recording featureset {'_id': 'featuresets/662893012', '_key': '662893012', '_rev': '_cfhuAQS---'}
+2021-06-17 13:17:02,361 - arangopipe_logger - INFO - Recording featureset dataset link {'_id': 'featureset_dataset/662893012-662893011', '_key': '662893012-662893011', '_rev': '_cfhuAcy---'}
+2021-06-17 13:17:02,566 - arangopipe_logger - INFO - The asset by name: Exploratory Data Analysis, phase I was not found in Arangopipe!
+2021-06-17 13:17:03,179 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/639479244-662893015', '_key': '639479244-662893015', '_rev': '_cfhuBQe---'}
+2021-06-17 13:17:03,191 - arangopipe_logger - INFO - Run info {'_key': '244637010788642941303650434748030557257', 'timestamp': '2021-06-17 13:17:03.191734', 'tag': 'Retail_Graph_Analytics'}
+2021-06-17 13:17:03,385 - arangopipe_logger - INFO - Recording run {'_id': 'run/244637010788642941303650434748030557257', '_key': '244637010788642941303650434748030557257', '_rev': '_cfhuBdq---'}
+2021-06-17 13:17:03,590 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/244637010788642941303650434748030557257-662893015', '_key': '244637010788642941303650434748030557257-662893015', '_rev': '_cfhuBq----'}
+2021-06-17 13:17:03,795 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/244637010788642941303650434748030557257', '_key': '244637010788642941303650434748030557257', '_rev': '_cfhuB2y---'}
+2021-06-17 13:17:04,007 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/244637010788642941303650434748030557257-662893012', '_key': '244637010788642941303650434748030557257-662893012', '_rev': '_cfhuCDq---'}
+2021-06-17 13:17:04,203 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/244637010788642941303650434748030557257-244637010788642941303650434748030557257', '_key': '244637010788642941303650434748030557257-244637010788642941303650434748030557257', '_rev': '_cfhuCQ2---'}
+2021-06-17 13:17:04,409 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/244637010788642941303650434748030557257', '_key': '244637010788642941303650434748030557257', '_rev': '_cfhuCc6---'}
+2021-06-17 13:17:04,614 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/244637010788642941303650434748030557257-244637010788642941303650434748030557257', '_key': '244637010788642941303650434748030557257-244637010788642941303650434748030557257', '_rev': '_cfhuCqO---'}
+2021-06-17 13:17:04,819 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/244637010788642941303650434748030557257-662893011', '_key': '244637010788642941303650434748030557257-662893011', '_rev': '_cfhuC22--_'}
+2021-06-17 13:20:26,445 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:30:19,222 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:30:48,827 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:30:49,033 - arangopipe_logger - INFO - The asset by name: retail analytics dataset was not found in Arangopipe!
+2021-06-17 13:30:49,239 - arangopipe_logger - INFO - The asset by name: retail analytics feature setl was not found in Arangopipe!
+2021-06-17 13:30:49,909 - arangopipe_logger - INFO - The asset by name: Feature Selection Task_147971904860431778745240142934169405241 was not found in Arangopipe!
+2021-06-17 13:30:50,875 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/639479553-639484041', '_key': '639479553-639484041', '_rev': '_cfh6pkC---'}
+2021-06-17 13:38:59,222 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:39:25,659 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:39:25,874 - arangopipe_logger - INFO - The asset by name: retail analytics dataset was not found in Arangopipe!
+2021-06-17 13:39:26,079 - arangopipe_logger - INFO - The asset by name: retail analytics feature setl was not found in Arangopipe!
+2021-06-17 13:39:26,478 - arangopipe_logger - INFO - The asset by name: Feature Selection Task_142105620116977489569469547879465203098 was not found in Arangopipe!
+2021-06-17 13:39:27,450 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/662893351-662897839', '_key': '662893351-662897839', '_rev': '_cfiCiHW---'}
+2021-06-17 13:41:40,258 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:42:36,154 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:42:37,143 - arangopipe_logger - INFO - The asset by name: Feature Selection Task_122812949724297109531894695435942983894 was not found in Arangopipe!
+2021-06-17 13:42:37,715 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/639479244-660923995', '_key': '639479244-660923995', '_rev': '_cfiFc_e---'}
+2021-06-17 13:42:37,730 - arangopipe_logger - INFO - Run info {'_key': '334247681291202741593581612214424191370', 'timestamp': '2021-06-17 13:42:37.730443', 'tag': 'Retail_Graph_Analytics'}
+2021-06-17 13:42:37,997 - arangopipe_logger - INFO - Recording run {'_id': 'run/334247681291202741593581612214424191370', '_key': '334247681291202741593581612214424191370', '_rev': '_cfiFcL6--A'}
+2021-06-17 13:42:38,202 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/334247681291202741593581612214424191370-660923995', '_key': '334247681291202741593581612214424191370-660923995', '_rev': '_cfiFcdC--A'}
+2021-06-17 13:42:38,406 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/334247681291202741593581612214424191370', '_key': '334247681291202741593581612214424191370', '_rev': '_cfiFcp2--_'}
+2021-06-17 13:42:38,611 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/334247681291202741593581612214424191370-662893012', '_key': '334247681291202741593581612214424191370-662893012', '_rev': '_cfiFc2m--A'}
+2021-06-17 13:42:38,815 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/334247681291202741593581612214424191370-334247681291202741593581612214424191370', '_key': '334247681291202741593581612214424191370-334247681291202741593581612214424191370', '_rev': '_cfiFdDi--A'}
+2021-06-17 13:42:39,020 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/334247681291202741593581612214424191370', '_key': '334247681291202741593581612214424191370', '_rev': '_cfiFdQC--A'}
+2021-06-17 13:42:39,211 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/334247681291202741593581612214424191370-334247681291202741593581612214424191370', '_key': '334247681291202741593581612214424191370-334247681291202741593581612214424191370', '_rev': '_cfiFdd---A'}
+2021-06-17 13:42:39,401 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/334247681291202741593581612214424191370-662893011', '_key': '334247681291202741593581612214424191370-662893011', '_rev': '_cfiFdo2--_'}
+2021-06-17 13:46:27,261 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:47:21,918 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:47:22,633 - arangopipe_logger - INFO - The asset by name: Feature Selection Task_141943476045516440225846179428551477988 was not found in Arangopipe!
+2021-06-17 13:47:23,232 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/639479244-639484293', '_key': '639479244-639484293', '_rev': '_cfiJypy--B'}
+2021-06-17 13:47:23,259 - arangopipe_logger - INFO - Run info {'_key': '197294728347573806699967332979296843011', 'timestamp': '2021-06-17 13:47:23.258964', 'tag': 'Retail_Graph_Analytics'}
+2021-06-17 13:47:23,454 - arangopipe_logger - INFO - Recording run {'_id': 'run/197294728347573806699967332979296843011', '_key': '197294728347573806699967332979296843011', '_rev': '_cfiJy22--_'}
+2021-06-17 13:47:23,659 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/197294728347573806699967332979296843011-639484293', '_key': '197294728347573806699967332979296843011-639484293', '_rev': '_cfiJzDS--_'}
+2021-06-17 13:47:23,863 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/197294728347573806699967332979296843011', '_key': '197294728347573806699967332979296843011', '_rev': '_cfiJzQK--A'}
+2021-06-17 13:47:24,069 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/197294728347573806699967332979296843011-662893012', '_key': '197294728347573806699967332979296843011-662893012', '_rev': '_cfiJzc2--_'}
+2021-06-17 13:47:24,273 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/197294728347573806699967332979296843011-197294728347573806699967332979296843011', '_key': '197294728347573806699967332979296843011-197294728347573806699967332979296843011', '_rev': '_cfiJzpu--A'}
+2021-06-17 13:47:24,469 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/197294728347573806699967332979296843011', '_key': '197294728347573806699967332979296843011', '_rev': '_cfiJz2i--A'}
+2021-06-17 13:47:24,683 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/197294728347573806699967332979296843011-197294728347573806699967332979296843011', '_key': '197294728347573806699967332979296843011-197294728347573806699967332979296843011', '_rev': '_cfiJ0C6--A'}
+2021-06-17 13:47:24,887 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/197294728347573806699967332979296843011-662893011', '_key': '197294728347573806699967332979296843011-662893011', '_rev': '_cfiJ0QS--A'}
+2021-06-17 13:57:39,185 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 13:57:40,085 - arangopipe_logger - INFO - The asset by name: retail analytics dataset was not found in Arangopipe!
+2021-06-17 13:57:40,437 - arangopipe_logger - INFO - Recording dataset dataset link {'_id': 'datasets/639484419', '_key': '639484419', '_rev': '_cfiTNPm---'}
+2021-06-17 13:57:41,235 - arangopipe_logger - INFO - The asset by name: retail analytics feature setl was not found in Arangopipe!
+2021-06-17 13:57:41,439 - arangopipe_logger - INFO - Recording featureset {'_id': 'featuresets/639484420', '_key': '639484420', '_rev': '_cfiTOXe---'}
+2021-06-17 13:57:41,645 - arangopipe_logger - INFO - Recording featureset dataset link {'_id': 'featureset_dataset/639484420-639484419', '_key': '639484420-639484419', '_rev': '_cfiTOkS--_'}
+2021-06-17 13:57:42,259 - arangopipe_logger - INFO - The asset by name: Exploratory Data Analysis, phase I was not found in Arangopipe!
+2021-06-17 13:57:42,919 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/662902714-639484421', '_key': '662902714-639484421', '_rev': '_cfiTPxO---'}
+2021-06-17 13:57:42,953 - arangopipe_logger - INFO - Run info {'_key': '272579816196161194617949933778720812776', 'timestamp': '2021-06-17 13:57:42.953230', 'tag': 'Retail_Graph_Analytics'}
+2021-06-17 13:57:43,283 - arangopipe_logger - INFO - Recording run {'_id': 'run/272579816196161194617949933778720812776', '_key': '272579816196161194617949933778720812776', '_rev': '_cfiTQC2---'}
+2021-06-17 13:57:43,489 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/272579816196161194617949933778720812776-639484421', '_key': '272579816196161194617949933778720812776-639484421', '_rev': '_cfiTQXe---'}
+2021-06-17 13:57:43,692 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/272579816196161194617949933778720812776', '_key': '272579816196161194617949933778720812776', '_rev': '_cfiTQkO---'}
+2021-06-17 13:57:43,896 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/272579816196161194617949933778720812776-639484420', '_key': '272579816196161194617949933778720812776-639484420', '_rev': '_cfiTQwy---'}
+2021-06-17 13:57:44,102 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/272579816196161194617949933778720812776-272579816196161194617949933778720812776', '_key': '272579816196161194617949933778720812776-272579816196161194617949933778720812776', '_rev': '_cfiTQ9u---'}
+2021-06-17 13:57:44,312 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/272579816196161194617949933778720812776', '_key': '272579816196161194617949933778720812776', '_rev': '_cfiTRL----'}
+2021-06-17 13:57:44,517 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/272579816196161194617949933778720812776-272579816196161194617949933778720812776', '_key': '272579816196161194617949933778720812776-272579816196161194617949933778720812776', '_rev': '_cfiTRXq---'}
+2021-06-17 13:57:45,037 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/272579816196161194617949933778720812776-639484419', '_key': '272579816196161194617949933778720812776-639484419', '_rev': '_cfiTRkq---'}
+2021-06-17 13:59:27,636 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 14:00:17,304 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 14:00:18,485 - arangopipe_logger - INFO - The asset by name: Feature Selection Task_308369770768861154348500368007665619927 was not found in Arangopipe!
+2021-06-17 14:00:19,341 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/662902714-639484454', '_key': '662902714-639484454', '_rev': '_cfiVoj2---'}
+2021-06-17 14:00:19,366 - arangopipe_logger - INFO - Run info {'_key': '183186716143795406999727211304288975960', 'timestamp': '2021-06-17 14:00:19.365810', 'tag': 'Retail_Graph_Analytics'}
+2021-06-17 14:00:19,966 - arangopipe_logger - INFO - Recording run {'_id': 'run/183186716143795406999727211304288975960', '_key': '183186716143795406999727211304288975960', '_rev': '_cfiVoxK--A'}
+2021-06-17 14:00:20,171 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/183186716143795406999727211304288975960-639484454', '_key': '183186716143795406999727211304288975960-639484454', '_rev': '_cfiVpWy--A'}
+2021-06-17 14:00:20,376 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/183186716143795406999727211304288975960', '_key': '183186716143795406999727211304288975960', '_rev': '_cfiVpjq--_'}
+2021-06-17 14:00:20,581 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/183186716143795406999727211304288975960-639484420', '_key': '183186716143795406999727211304288975960-639484420', '_rev': '_cfiVpwu--B'}
+2021-06-17 14:00:20,785 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/183186716143795406999727211304288975960-183186716143795406999727211304288975960', '_key': '183186716143795406999727211304288975960-183186716143795406999727211304288975960', '_rev': '_cfiVp9a--A'}
+2021-06-17 14:00:20,990 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/183186716143795406999727211304288975960', '_key': '183186716143795406999727211304288975960', '_rev': '_cfiVqJy--A'}
+2021-06-17 14:00:21,196 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/183186716143795406999727211304288975960-183186716143795406999727211304288975960', '_key': '183186716143795406999727211304288975960-183186716143795406999727211304288975960', '_rev': '_cfiVqW2--B'}
+2021-06-17 14:00:21,400 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/183186716143795406999727211304288975960-639484419', '_key': '183186716143795406999727211304288975960-639484419', '_rev': '_cfiVqj6--_'}
+2021-06-17 14:12:02,265 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-17 14:12:55,617 - arangopipe_logger - INFO - The asset by name: Frequent_Customer_Graph was not found in Arangopipe!
+2021-06-17 14:12:55,823 - arangopipe_logger - INFO - Recording dataset dataset link {'_id': 'datasets/660929055', '_key': '660929055', '_rev': '_cfihLQ---A'}
+2021-06-17 14:12:56,028 - arangopipe_logger - INFO - The asset by name: Features are attributes of the nodes was not found in Arangopipe!
+2021-06-17 14:12:56,233 - arangopipe_logger - INFO - Recording featureset {'_id': 'featuresets/660929056', '_key': '660929056', '_rev': '_cfihLq---A'}
+2021-06-17 14:12:56,421 - arangopipe_logger - INFO - Recording featureset dataset link {'_id': 'featureset_dataset/660929056-660929055', '_key': '660929056-660929055', '_rev': '_cfihL2u--A'}
+2021-06-17 14:12:58,077 - arangopipe_logger - INFO - The asset by name: Descriptive Analytics for Frequent Customers was not found in Arangopipe!
+2021-06-17 14:13:00,227 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/662902714-660929059', '_key': '662902714-660929059', '_rev': '_cfihPju--A'}
+2021-06-17 14:13:00,254 - arangopipe_logger - INFO - Run info {'_key': '307330135686106014619396467261059006855', 'timestamp': '2021-06-17 14:13:00.253939', 'tag': 'Retail Descriptive Analytics Notebook'}
+2021-06-17 14:13:00,469 - arangopipe_logger - INFO - Recording run {'_id': 'run/307330135686106014619396467261059006855', '_key': '307330135686106014619396467261059006855', '_rev': '_cfihPyG--A'}
+2021-06-17 14:13:00,842 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/307330135686106014619396467261059006855-660929059', '_key': '307330135686106014619396467261059006855-660929059', '_rev': '_cfihQ_y--_'}
+2021-06-17 14:13:01,047 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/307330135686106014619396467261059006855', '_key': '307330135686106014619396467261059006855', '_rev': '_cfihQWm--A'}
+2021-06-17 14:13:01,236 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/307330135686106014619396467261059006855-660929056', '_key': '307330135686106014619396467261059006855-660929056', '_rev': '_cfihQjq--B'}
+2021-06-17 14:13:01,749 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/307330135686106014619396467261059006855-307330135686106014619396467261059006855', '_key': '307330135686106014619396467261059006855-307330135686106014619396467261059006855', '_rev': '_cfihQvi--_'}
+2021-06-17 14:13:01,968 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/307330135686106014619396467261059006855', '_key': '307330135686106014619396467261059006855', '_rev': '_cfihRPW--A'}
+2021-06-17 14:13:02,173 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/307330135686106014619396467261059006855-307330135686106014619396467261059006855', '_key': '307330135686106014619396467261059006855-307330135686106014619396467261059006855', '_rev': '_cfihRdS--A'}
+2021-06-17 14:13:02,377 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/307330135686106014619396467261059006855-660929055', '_key': '307330135686106014619396467261059006855-660929055', '_rev': '_cfihRqG--A'}
