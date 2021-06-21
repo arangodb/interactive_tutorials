@@ -1,11 +1,15 @@
 ## ArangoBnB Without Calendar
-Example restore command: `arangorestore --server.database abnb_geo_data --create-database --input-directory .\data\arangobnb_no_calendar\`
+Example restore command: `arangorestore --server.database abnb_geo_data --create-database --include-system-collections --input-directory .\data\arangobnb_no_calendar\`
 
 This branch contains a dump for the arangobnb dataset.
 It drops the `calendar` collection; the included collections are:
 * listings
 * neighborhoods
 * reviews
+
+### Configure View and Analyzer
+* Configure View
+* Configure GeoJSON Analyzer
 
 It also contains an ArangoSearch View with the following defintion:
 ```
@@ -114,4 +118,9 @@ It also contains an ArangoSearch View with the following defintion:
   "primarySortCompression": "lz4"
 }
 ```
-
+### GeoJSON Analyzer
+It also includes an analyzer with default geojson configuration. This analyzer was created with the following:
+```
+var analyzers = require("@arangodb/analyzers");
+var a = analyzers.save("geo", "geojson", {}, []);
+```
