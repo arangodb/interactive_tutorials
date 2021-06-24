@@ -70,3 +70,6 @@
 2021-06-17 14:11:33,413 - arangopipe_admin_logger - DEBUG - Connection reuse: False
 2021-06-17 14:11:33,414 - arangopipe_admin_logger - INFO - Requesting a managed service database...
 2021-06-17 14:11:36,436 - arangopipe_admin_logger - INFO - Managed service database was created !
+2021-06-24 11:54:32,623 - arangopipe_admin_logger - DEBUG - Connection reuse: False
+2021-06-24 11:54:32,623 - arangopipe_admin_logger - INFO - Requesting a managed service database...
+2021-06-24 11:54:44,788 - arangopipe_admin_logger - INFO - Managed service database was created !

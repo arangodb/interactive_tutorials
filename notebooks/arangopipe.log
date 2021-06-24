@@ -182,3 +182,20 @@
 2021-06-17 14:13:01,968 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/307330135686106014619396467261059006855', '_key': '307330135686106014619396467261059006855', '_rev': '_cfihRPW--A'}
 2021-06-17 14:13:02,173 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/307330135686106014619396467261059006855-307330135686106014619396467261059006855', '_key': '307330135686106014619396467261059006855-307330135686106014619396467261059006855', '_rev': '_cfihRdS--A'}
 2021-06-17 14:13:02,377 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/307330135686106014619396467261059006855-660929055', '_key': '307330135686106014619396467261059006855-660929055', '_rev': '_cfihRqG--A'}
+2021-06-24 11:55:28,533 - arangopipe_logger - INFO - The asset by name: heart beat check was not found in Arangopipe!
+2021-06-24 11:56:23,364 - arangopipe_logger - INFO - The asset by name: Frequent_Customer_Graph was not found in Arangopipe!
+2021-06-24 11:56:23,545 - arangopipe_logger - INFO - Recording dataset dataset link {'_id': 'datasets/639618960', '_key': '639618960', '_rev': '_chwwsBu--A'}
+2021-06-24 11:56:24,035 - arangopipe_logger - INFO - The asset by name: Features are attributes of the nodes was not found in Arangopipe!
+2021-06-24 11:56:24,248 - arangopipe_logger - INFO - Recording featureset {'_id': 'featuresets/639618961', '_key': '639618961', '_rev': '_chwwsry--A'}
+2021-06-24 11:56:24,458 - arangopipe_logger - INFO - Recording featureset dataset link {'_id': 'featureset_dataset/639618961-639618960', '_key': '639618961-639618960', '_rev': '_chwws5e--B'}
+2021-06-24 11:56:25,636 - arangopipe_logger - INFO - The asset by name: Descriptive Analytics for Frequent Customers was not found in Arangopipe!
+2021-06-24 11:56:27,646 - arangopipe_logger - INFO - Recording project model link {'_id': 'project_models/662902714-639618962', '_key': '662902714-639618962', '_rev': '_chwwwCC--A'}
+2021-06-24 11:56:27,660 - arangopipe_logger - INFO - Run info {'_key': '197837902619342914888573418459649474345', 'timestamp': '2021-06-24 11:56:27.660341', 'tag': 'Retail Descriptive Analytics Notebook'}
+2021-06-24 11:56:27,852 - arangopipe_logger - INFO - Recording run {'_id': 'run/197837902619342914888573418459649474345', '_key': '197837902619342914888573418459649474345', '_rev': '_chwwwOS--A'}
+2021-06-24 11:56:28,038 - arangopipe_logger - INFO - Recording model run link {'_id': 'run_models/197837902619342914888573418459649474345-639618962', '_key': '197837902619342914888573418459649474345-639618962', '_rev': '_chwwwai--B'}
+2021-06-24 11:56:28,247 - arangopipe_logger - INFO - Recording model params {'_id': 'modelparams/197837902619342914888573418459649474345', '_key': '197837902619342914888573418459649474345', '_rev': '_chwwwmK--A'}
+2021-06-24 11:56:28,452 - arangopipe_logger - INFO - Recording run featureset link {'_id': 'run_featuresets/197837902619342914888573418459649474345-639618961', '_key': '197837902619342914888573418459649474345-639618961', '_rev': '_chwwwzC--A'}
+2021-06-24 11:56:28,637 - arangopipe_logger - INFO - Recording run model params {'_id': 'run_modelparams/197837902619342914888573418459649474345-197837902619342914888573418459649474345', '_key': '197837902619342914888573418459649474345-197837902619342914888573418459649474345', '_rev': '_chwwxAC--A'}
+2021-06-24 11:56:28,865 - arangopipe_logger - INFO - Recording model dev performance  {'_id': 'devperf/197837902619342914888573418459649474345', '_key': '197837902619342914888573418459649474345', '_rev': '_chwwxLO--A'}
+2021-06-24 11:56:29,059 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_devperf/197837902619342914888573418459649474345-197837902619342914888573418459649474345', '_key': '197837902619342914888573418459649474345-197837902619342914888573418459649474345', '_rev': '_chwwxZq--A'}
+2021-06-24 11:56:29,271 - arangopipe_logger - INFO - Recording run dev perf link {'_id': 'run_datasets/197837902619342914888573418459649474345-639618960', '_key': '197837902619342914888573418459649474345-639618960', '_rev': '_chwwxmC--A'}
