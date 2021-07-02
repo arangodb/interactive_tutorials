@@ -32,6 +32,7 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 * [Game of Thrones AQL Tutorial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_GOT_Tutorial.ipynb)
 * [Graph Analytics: Retail Part 1 - Data Exploration](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_EDA_I.ipynb)
 * [Graph Analytics: Retail Part 2 - Feature Selection & RFM](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_EDA_II.ipynb)
+* [Graph Analytics: Retail Part 3 - Descriptive Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_DA_I.ipynb)
 * [Graph Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Embeddings.ipynb)
 * [NetworkX Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
 * [Pregel Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Pregel.ipynb)
