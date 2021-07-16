@@ -5,6 +5,13 @@
 Here you will find tutorials and interactive notebooks for ArangoDB features. These notebooks allow you to learn about ArangoDB concepts and features without the need to install or sign up for anything. Each notebook uses a free temporary tutorial database that lets you focus on all the cool things ArangoDB has to offer.
 
 ## Learn
+There are a few sections for getting started with Interactive Tutorials:
+* [Machine Learning](#machine-learning): Links to the various ArangoDB machine learning projects and learning content.
+* [ArangoDB](#arangodb): The interactive tutorials maintained in this repo that cover all aspects of ArangoDB.
+* [Workshop Repositories](#workshop-repositories): Links to the repositories associated with ArangoDB workshops.
+* [Feedback](#feedback): Feel free to leave use feedback.
+* [Contribute](#contribute): Learn how to contribute your own learning content.
+
 
 ### Machine Learning
 In addition to the notebooks listed in the following section, we have example machine learning notebooks with [ArangoML](https://github.com/arangoml), including:
