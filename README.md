@@ -42,6 +42,10 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 * [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
 
+### Workshop Repositories
+* [Graph Powered Machine Learning](https://github.com/joerg84/Graph_Powered_ML_Workshop)
+* [NVIDIA Triton meets ArangoDB](https://github.com/sachinsharma9780/AI-Enterprise-Workshop-Building-ML-Pipelines)
+
 ### Feedback
 Do you have some topics you would like to see a notebook for? Well, read on to the contribute section for details on how to submit a notebook of your own. 
 
