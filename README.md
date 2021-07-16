@@ -50,6 +50,9 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
 
 ### Workshop Repositories
+The following is a list of workshops given that cover topics related to ArangoDB.
+If you would like to add a workshop that might be interesting to the ArangoDB community, please add it to the list and open a pull request.
+
 * [Graph Powered Machine Learning](https://github.com/joerg84/Graph_Powered_ML_Workshop)
 * [NVIDIA Triton meets ArangoDB](https://github.com/sachinsharma9780/AI-Enterprise-Workshop-Building-ML-Pipelines)
 
@@ -61,8 +64,12 @@ You can also always drop us a line at [learn@arangodb.com](mailto:learn@arangodb
 ## Contribute
 
 Do you have a great idea for a notebook? 
+
 Did you see something you think could be better?
+
 Have a cool project that uses ArangoDB that you would like to share with the community?
+
+**Notebooks**
 
 Make a notebook of your own!
 
@@ -71,3 +78,11 @@ We have provided a template that will help you quickly get started creating a no
 Just open up the [Template.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template.ipynb) file to learn more about what it takes to get started or you can use the [Template_basic.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template_basic.ipynb) file to get a simple notebook with only the connection code done for you.
 
 Once your notebook is ready for the world to see, you can place it in the [community_notebooks](https://github.com/arangodb/interactive_tutorials/tree/master/community_notebooks) folder and create a pull request.
+
+**Workshops**
+
+If you have a workshop repository that you would like added to the list, add it to the Workshop Repositories section and open a pull request.
+
+**Something Else?**
+
+Open an issue or pull request with your suggestion. You can also drop us a line at learn@arangodb.com or join us on our community Slack channel.
