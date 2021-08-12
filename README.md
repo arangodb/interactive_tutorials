@@ -35,6 +35,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [ArangoSearch Part 2: Advanced Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearchOnGraphs.ipynb)
 * [Best Practices Guide](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/BestPractices.ipynb)
 * [Collaborative Filtering](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Collaborative_Filtering.ipynb)
+* [Comprehensive GraphSage Guide with PyTorchGeometric and Amazon Product Recommendation Dataset](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Comprehensive_GraphSage_Guide_with_PyTorchGeometric.ipynb)
 * [Fuzzy Search](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/FuzzySearch.ipynb)
 * [Game of Thrones AQL Tutorial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_GOT_Tutorial.ipynb)
 * [Graph Analytics: Retail Part 1 - Data Exploration](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_EDA_I.ipynb)
@@ -49,6 +50,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
 * [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
+
 
 ### Workshop Repositories
 The following is a list of workshops given that cover topics related to ArangoDB.
