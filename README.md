@@ -28,6 +28,7 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 * [ArangoSearch Part 2: Advanced Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearchOnGraphs.ipynb)
 * [Best Practices Guide](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/BestPractices.ipynb)
 * [Collaborative Filtering](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Collaborative_Filtering.ipynb)
+* [Comprehensive GraphSage Guide with PyTorchGeometric and Amazon Product Recommendation Dataset](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Comprehensive_GraphSage_Guide_with_PyTorchGeometric.ipynb)
 * [Fuzzy Search](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/FuzzySearch.ipynb)
 * [Game of Thrones AQL Tutorial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_GOT_Tutorial.ipynb)
 * [Graph Analytics: Retail Part 1 - Data Exploration](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_EDA_I.ipynb)
@@ -41,7 +42,7 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 * [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
 * [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
-* [Comprehensive GraphSage Guide with PyTorchGeometric and Amazon Product Recommendation Dataset](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Comprehensive_GraphSage_Guide_with_PyTorchGeometric.ipynb)
+
 
 ### Feedback
 Do you have some topics you would like to see a notebook for? Well, read on to the contribute section for details on how to submit a notebook of your own. 
