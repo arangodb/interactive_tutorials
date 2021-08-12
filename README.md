@@ -41,7 +41,7 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 * [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
 * [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
-* [Comprehensive_GraphSage_Guide_with_PyTorchGeometric.ipynb] (https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Comprehensive_GraphSage_Guide_with_PyTorchGeometric.ipynb)
+* [Comprehensive_GraphSage_Guide_with_PyTorchGeometric](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Comprehensive_GraphSage_Guide_with_PyTorchGeometric.ipynb)
 
 ### Feedback
 Do you have some topics you would like to see a notebook for? Well, read on to the contribute section for details on how to submit a notebook of your own. 
