@@ -18,7 +18,7 @@ There are a few sections for getting started with Interactive Tutorials:
 * [Machine Learning](#machine-learning): Links to the various ArangoDB machine learning projects and learning content.
 * [ArangoDB](#arangodb): The interactive tutorials maintained in this repo that cover all aspects of ArangoDB.
 * [Workshop Repositories](#workshop-repositories): Links to the repositories associated with ArangoDB workshops.
-* [Feedback](#feedback): Feel free to leave use feedback.
+* [Feedback](#feedback): Feel free to leave us feedback.
 * [Contribute](#contribute): Learn how to contribute your own learning content.
 
 
