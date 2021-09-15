@@ -36,9 +36,9 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 The following links will open the notebooks directly in Google Colab, the source files are located in [the notebooks folder](https://github.com/arangodb/interactive_tutorials/tree/master/notebooks).
 * [AQL CRUD Part 1](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlCrudTutorial.ipynb)
 * [AQL CRUD Part 2](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlPart2Tutorial.ipynb)
-* [AQL Geospatial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlGeospatialTutorial.ipynb)
 * [AQL Joins](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlJoinTutorial.ipynb)
 * [AQL Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlTraversalTutorial.ipynb)
+* [AQL Geospatial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlGeospatialTutorial.ipynb)
 * [ArangoBnB Data Preparation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoBnB_simple_data_exploration.ipynb)
 * [ArangoSearch](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearch.ipynb)
 * [ArangoSearch Part 2: Advanced Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearchOnGraphs.ipynb)
