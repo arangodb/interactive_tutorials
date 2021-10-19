@@ -58,6 +58,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [SatelliteGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/SatelliteGraphs.ipynb)
 * [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
 * [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
+* [Window - Time Series Aggregation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Window.ipynb)
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
 
 
