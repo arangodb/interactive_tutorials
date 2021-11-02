@@ -17,6 +17,7 @@ Here you will find tutorials and interactive notebooks for ArangoDB features. Th
 There are a few sections for getting started with Interactive Tutorials:
 * [Machine Learning](#machine-learning): Links to the various ArangoDB machine learning projects and learning content.
 * [ArangoDB](#arangodb): The interactive tutorials maintained in this repo that cover all aspects of ArangoDB.
+* [Community Notebooks](#community-notebooks): Amazing submissions from the community!
 * [Workshop Repositories](#workshop-repositories): Links to the repositories associated with ArangoDB workshops.
 * [Feedback](#feedback): Feel free to leave us feedback.
 * [Contribute](#contribute): Learn how to contribute your own learning content.
@@ -61,6 +62,11 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Window - Time Series Aggregation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Window.ipynb)
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
 
+### Community Notebooks
+If you have a use case you would like to show off or even a quick tutorial for an ArangoDB feature, this would be very helpful to the ArangoDB community. It's easy to get started with our [Template.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template.ipynb), which shows you how to use the tutorial endpoint in your notebooks. When ready, open a PR with your submission, and we will add it to the list, share it with the community, and be eternally grateful.
+
+ **Notebooks**:
+* [Criando e analisando dados com AQL](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/community_notebooks/BD_g01_ArangoDB.ipynb) - Submitted by [janiosl](https://github.com/janiosl)
 
 ### Workshop Repositories
 The following is a list of workshops given that cover topics related to ArangoDB.
