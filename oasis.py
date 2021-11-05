@@ -52,7 +52,7 @@ def connect(login: dict):
 
     return Connection(
         arangoURL=url, username=login["username"], password=login["password"]
-    )[login["dbName"]]
+    )
 
 
 # Connect against an oasis DB and return python-arango connection
