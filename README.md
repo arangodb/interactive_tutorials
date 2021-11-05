@@ -1,12 +1,3 @@
-# Community Notebook Challenge (Limited Time Event)
-Win custom Apple Airpods by submitting your own notebook!
-
-See the contest page for more info and then come back here to submit your notebook!
-
-[https://www.arangodb.com/2021/08/community-notebook-challenge/](https://www.arangodb.com/2021/08/community-notebook-challenge/)
-
-![customAirpods](https://www.arangodb.com/wp-content/uploads/2021/08/Screenshot-2021-08-12-at-14.34.50.png)
-
 # ArangoDB Interactive Tutorials
 
 ![ArangoDB-Logo](https://www.arangodb.com/docs/assets/arangodb_logo_2016_inverted.png)
