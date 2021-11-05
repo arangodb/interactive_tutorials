@@ -3,80 +3,67 @@ import requests
 import sys
 import time
 
-from pyArango.connection import *
-from arango import ArangoClient, ServerConnectionError
+from pyArango.connection import Connection
+from arango import ArangoClient
 
 
 # retrieving credentials from ArangoDB tutorial service
-def getTempCredentials(tutorialName=None,credentialProvider="https://tutorials.arangodb.cloud:8529/_db/_system/tutorialDB/tutorialDB"):
-    with open("creds.dat","r+") as cacheFile:
+def getTempCredentials(
+    tutorialName=None,
+    credentialProvider="https://tutorials.arangodb.cloud:8529/_db/_system/tutorialDB/tutorialDB",
+):
+    with open("creds.dat", "r") as cacheFile:
         contents = cacheFile.readline()
-        if len(contents) > 0:
-            login = None
-            url = ""
-
-            # check if credentials are still valid
-            try:
+        if contents:
+            try:  # check if credentials are still valid
                 login = json.loads(contents)
-                url = "https://"+login["hostname"]+":"+str(login["port"])
-            except:
-                # Incorrect data in cred file and retrieve new credentials
-                cacheFile.truncate(0)
-                pass
-
-            conn =""
-            if (login is not None):
-                try:
-                    conn = Connection(arangoURL=url, username=login["username"], password=login["password"],)
-                    print("Reusing cached credentials.")
-                    return login
-                except:
-                    print("Credentials expired.")
-                    pass # Ignore and retrieve new 
+                url = "https://" + login["hostname"] + ":" + str(login["port"])
+                Connection(
+                    arangoURL=url,
+                    username=login["username"],
+                    password=login["password"],
+                )
+                print("Reusing cached credentials.")
+                return {**login, **{"isCached": True}}
+            except:  # Incorrect data in cred file and retrieve new credentials
+                print("Invalid/expired expired.")
 
         # Retrieve new credentials from Foxx Service
-        print("Requesting new temp credentials.")
-        if (tutorialName is not None):
-            body = {
-                "tutorialName": tutorialName
-            }
-        else:
-            body = "{}"
+        with open("creds.dat", "w+") as cacheFile:
+            print("Requesting new temp credentials.")
+            body = {"tutorialName": tutorialName} if tutorialName else "{}"
+            x = requests.post(credentialProvider, data=json.dumps(body))
+            if x.status_code != 200:
+                print("Error retrieving login data.")
+                sys.exit()
 
-        url = credentialProvider
-        x = requests.post(url, data = json.dumps(body))
-
-        if x.status_code != 200:
-            print("Error retrieving login data.")
-            sys.exit()
-        # Caching credentials
-        cacheFile.truncate(0)
-        cacheFile.write(x.text)
-        print("Temp database ready to use.")
-        return json.loads(x.text)
+            # Caching credentials
+            cacheFile.write(x.text)
+            cacheFile.close()
+            print("Temp database ready to use.")
+            return json.loads(x.text)
 
 
 # Connect against an oasis DB and return pyarango connection
-def connect(login):
-    url = "https://"+login["hostname"]+":"+str(login["port"])
-    conn = None
-    try:
-        conn = Connection(arangoURL=url, username=login["username"], password=login["password"])
-    except:
-        time.sleep(5)
-        conn = Connection(arangoURL=url, username=login["username"], password=login["password"])
-    return conn
+def connect(login: dict):
+    url = "https://" + login["hostname"] + ":" + str(login["port"])
+    if "isCached" not in login:
+        time.sleep(3)
+
+    return Connection(
+        arangoURL=url, username=login["username"], password=login["password"]
+    )
 
 
 # Connect against an oasis DB and return python-arango connection
-def connect_python_arango(login):
-    url = "https://"+login["hostname"]+":"+str(login["port"])
-    database = None
-    # Initialize the ArangoDB client.
-    client = ArangoClient(hosts=url)
-    try:
-        database = client.db(login["dbName"], username=login["username"], password=login["password"], verify=True)
-    except ServerConnectionError:
-        time.sleep(5)
-        database = client.db(login["dbName"], username=login["username"], password=login["password"], verify=True)
-    return database
+def connect_python_arango(login: dict):
+    url = "https://" + login["hostname"] + ":" + str(login["port"])
+    if "isCached" not in login:
+        time.sleep(3)
+
+    return ArangoClient(hosts=url).db(
+        login["dbName"],
+        username=login["username"],
+        password=login["password"],
+        verify=True,
+    )
