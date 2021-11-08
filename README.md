@@ -18,6 +18,7 @@ There are a few sections for getting started with Interactive Tutorials:
 In addition to the notebooks listed in the following section, we have example machine learning notebooks with [ArangoML](https://github.com/arangoml), including:
 * [ArangoML Pipeline](https://github.com/arangoml/arangopipe/tree/master/examples)
 * [ArangoDB NetworkX Adapter](https://github.com/arangoml/networkx-adapter/tree/master/examples)
+    * [Getting Started Notebook](https://github.com/arangoml/networkx-adapter/tree/master/examples/ArangoDB_NetworkxAdapter.ipynb)
 
 
 ### ArangoDB 
@@ -44,7 +45,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Graph Analytics: Retail Part 3 - Descriptive Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_DA_I.ipynb)
 * [Graph Analytics: Retail Part 4 - Descriptive Analytics, continued](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_DA_II.ipynb)
 * [Graph Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Embeddings.ipynb)
-* [NetworkX Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
+* [NetworkX IMDB Graph Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
 * [Pregel Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Pregel.ipynb)
 * [R Language with ArangoDB](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/R_ArangoDB_Managed_Service_Notebook.ipynb)
 * [SatelliteGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/SatelliteGraphs.ipynb)
