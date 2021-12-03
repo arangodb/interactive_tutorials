@@ -24,7 +24,7 @@ def getTempCredentials(
                     password=login["password"],
                 )
                 print("Reusing cached credentials.")
-                return {**login, **{"isCached": True}}
+                return login
             except:  # Incorrect data in cred file and retrieve new credentials
                 print("Invalid/expired expired.")
 
@@ -40,6 +40,7 @@ def getTempCredentials(
             # Caching credentials
             cacheFile.write(x.text)
             cacheFile.close()
+            time.sleep(5) # Wait for DB provisioning
             print("Temp database ready to use.")
             return json.loads(x.text)
 
@@ -47,9 +48,6 @@ def getTempCredentials(
 # Connect against an oasis DB and return pyarango connection
 def connect(login: dict):
     url = "https://" + login["hostname"] + ":" + str(login["port"])
-    if "isCached" not in login:
-        time.sleep(3)
-
     return Connection(
         arangoURL=url, username=login["username"], password=login["password"]
     )
@@ -58,9 +56,6 @@ def connect(login: dict):
 # Connect against an oasis DB and return python-arango connection
 def connect_python_arango(login: dict):
     url = "https://" + login["hostname"] + ":" + str(login["port"])
-    if "isCached" not in login:
-        time.sleep(3)
-
     return ArangoClient(hosts=url).db(
         login["dbName"],
         username=login["username"],
