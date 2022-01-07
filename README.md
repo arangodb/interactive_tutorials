@@ -17,8 +17,8 @@ There are a few sections for getting started with Interactive Tutorials:
 ### Machine Learning
 In addition to the notebooks listed in the following section, we have example machine learning notebooks with [ArangoML](https://github.com/arangoml), including:
 * [ArangoML Pipeline](https://github.com/arangoml/arangopipe/tree/master/examples)
-* [ArangoDB NetworkX Adapter](https://github.com/arangoml/networkx-adapter/tree/master/examples)
-    * [Getting Started Notebook](https://github.com/arangoml/networkx-adapter/tree/master/examples/ArangoDB_NetworkxAdapter.ipynb)
+* [ArangoDB NetworkX Adapter](https://github.com/arangoml/networkx-adapter)
+    * [Getting Started Notebook](https://colab.research.google.com/github/arangoml/networkx-adapter/blob/master/examples/ArangoDB_NetworkX_Adapter.ipynb)
 
 
 ### ArangoDB 
