@@ -1,1 +1,1 @@
-This branch contains data for the ArangoML movie recommendation demo project.
+This branch contains the LDBC sample dataset and import script for Hybrid SmartGraphs.
