@@ -85,7 +85,7 @@ create_smart_graph
 process_directory "dynamic/Comment" "Comment" "document" "--datatype CreatorPersonId=string" "--datatype ParentCommentId=string" "--datatype LocationCountryId=string" "--datatype ParentPostId=string" "--datatype ParentCommmentId=string" "--merge-attributes _key=[CreatorPersonId]:[id]"
 #Comment_hasReply_Comment defined in create_smart_graph and requires post processing to obtain smartified person who replied and smartified commentId
 #Comment_hasTag_Tag_standard is imported below but needs the comment field smartified post import
-process_directory "dynamic/Comment_hasTag_Tag" "Comment_hasTag_Tag_standard" "edge" "--from-collection-prefix=Comment" "--to-collection-prefix=Tag" "--merge-attributes _from=[CommentId]" "--merge-attributes _to=[TagId]" 
+process_directory "dynamic/Comment_hasTag_Tag" "Comment_hasTag_Tag_standard" "edge" "--from-collection-prefix=Comment" "--to-collection-prefix=Tag" "--merge-attributes _from=[CommentId]" "--merge-attributes _to=[TagId]:[TagId]" 
 # ModeratorPersonId could be 'smartified' in Forum but not necessary for queries
 process_directory "dynamic/Forum" "Forum" "document" "--datatype ModeratorPersonId=string" "--merge-attributes _key=[id]:[id]" "--merge-attributes CreatorPersonId=[ModeratorPersonId]"
 
