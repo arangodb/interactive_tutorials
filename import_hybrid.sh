@@ -19,7 +19,6 @@ create_smart_graph () {
 
   var rel = [];
 
-  rel.push(graph_module._relation("Comment_hasReply_Comment", ["Comment"], ["Comment"]));
   rel.push(graph_module._relation("Comment_hasTag_Tag", ["Comment"], ["Tag"]));
   rel.push(graph_module._relation("Person_hasCreated_Comment", ["Comment"], ["Person"]));
   rel.push(graph_module._relation("Person_hasCreated_Post", ["Post"], ["Person"])); 
