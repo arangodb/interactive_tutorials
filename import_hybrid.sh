@@ -103,13 +103,13 @@ process_directory "dynamic/Person_knows_Person" "Person_knows_Person" "edge" "--
 process_directory "dynamic/Person_likes_Comment" "Person_likes_Comment_standard" "edge" "--from-collection-prefix=Person" "--to-collection-prefix=Comment" "--merge-attributes _from=[PersonId]:[PersonId]" "--merge-attributes _to=[CommentId]" 
 #Person_likes_Post (created via smartGraph) requires post import lookup for Post as post CreatorPersonId is not known for edge on import
 process_directory "dynamic/Person_likes_Post" "Person_likes_Post_standard" "edge" "--from-collection-prefix=Person" "--to-collection-prefix=Post" "--merge-attributes _from=[PersonId]:[PersonId]" "--merge-attributes _to=[PostId]" 
-process_directory "dynamic/Person_studyAt_University" "Person_studyAt_University" "edge" "--from-collection-prefix=Person" "--to-collection-prefix=Organisation" "--datatype UniversityId=string" "--merge-attributes _from=[PersonId]:[PersonId]" "--merge-attributes _to=[UniversityId]:[UniversityId]"
+process_directory "dynamic/Person_studyAt_University" "Person_studyAt_University" "edge" "--from-collection-prefix=Person" "--to-collection-prefix=Organisation" "--datatype UniversityId=string" "--merge-attributes CreatorPersonId=[PersonId]" "--merge-attributes _from=[CreatorPersonId]:[CreatorPersonId]" "--merge-attributes _to=[UniversityId]:[UniversityId]"
 process_directory "dynamic/Person_workAt_Company" "Person_workAt_Company" "edge" "--from-collection-prefix=Person" "--to-collection-prefix=Organisation" "--merge-attributes _from=[PersonId]:[PersonId]" "--merge-attributes _to=[CompanyId]:[CompanyId]"
 process_directory "static/Place" "Place" "document" "--merge-attributes _key=[id]:[id]"
 process_directory "dynamic/Post" "Post" "document" "--datatype CreatorPersonId=string" "--datatype ContainerForumId=string" "--datatype LocationForumId=string" "--merge-attributes _key=[CreatorPersonId]:[id]"
 #Post_hasReply_Comment defined in create_smart_graph and requires post processing to obtain smartified person who replied and smartified commentId
 #Post_hasTag_Tag requires post processing for the smartified postId
-process_directory "dynamic/Post_hasTag_Tag" "Post_hastTag_Tag_standard" "edge" "--from-collection-prefix=Post" "--to-collection-prefix=Tag" "--merge-attributes _from=[PostId]" "--merge-attributes _to=[TagId]:[TagId]"
+process_directory "dynamic/Post_hasTag_Tag" "Post_hasTag_Tag_standard" "edge" "--from-collection-prefix=Post" "--to-collection-prefix=Tag" "--merge-attributes _from=[PostId]" "--merge-attributes _to=[TagId]:[TagId]"
 process_directory "static/Tag" "Tag" "document" "--datatype id=string" "--merge-attributes CreatorPersonId=[id]" "--merge-attributes _key=[CreatorPersonId]:[id]"
 
 process_directory "static/TagClass" "TagClass" "document" "--datatype id=string" "--merge-attributes _key=[id]:[id]" "--datatype SubclassOfTagClassId=string"
