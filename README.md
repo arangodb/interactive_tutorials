@@ -47,6 +47,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Graph Analytics: Retail Part 4 - Descriptive Analytics, continued](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_DA_II.ipynb)
 * [Graph Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Embeddings.ipynb)
 * [Graph Visualization using Graphistry](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_Graphistry_Visualization.ipynb)
+* [Hybrid SmartGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/HybridSmartGraphs.ipynb)
 * [NetworkX IMDB Graph Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
 * [Pregel Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Pregel.ipynb)
 * [RDF Import Example](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/RDF_Import_Example.ipynb)
