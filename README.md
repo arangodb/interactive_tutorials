@@ -49,6 +49,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Graph Visualization using Graphistry](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_Graphistry_Visualization.ipynb)
 * [NetworkX IMDB Graph Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
 * [Pregel Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Pregel.ipynb)
+* [RDF Simple Example](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/simple_RDFtoArangoDB.ipynb)
 * [R Language with ArangoDB](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/R_ArangoDB_Managed_Service_Notebook.ipynb)
 * [SatelliteGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/SatelliteGraphs.ipynb)
 * [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
