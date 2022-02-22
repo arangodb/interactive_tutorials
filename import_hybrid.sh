@@ -25,7 +25,6 @@ create_smart_graph () {
   rel.push(graph_module._relation("Person_knows_Person", ["Person"], ["Person"]));
   rel.push(graph_module._relation("Person_likes_Comment", ["Person"], ["Comment"]));
   rel.push(graph_module._relation("Person_likes_Post", ["Person"], ["Post"]));
-  rel.push(graph_module._relation("Post_hasReply_Comment", ["Comment"], ["Post"]));
   rel.push(graph_module._relation("Post_hasTag_Tag", ["Post"], ["Tag"]));
   rel.push(graph_module._relation("isSubclassOf", ["TagClass"], ["TagClass"]));
   rel.push(graph_module._relation("Person_workAt_Company", ["Person"], ["Organisation"]));
