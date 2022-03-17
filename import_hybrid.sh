@@ -45,7 +45,7 @@ run_import () {
   local file="$2"
   local type="$3"
   shift 3
-  $ARANGOIMPORT --type csv --collection "$collection" --separator "|" --create-collection true --create-collection-type "$type" --file "$file" --server.endpoint "$ARANGO_ENDPOINT" --server.database "$ARANGO_DATABASE" --server.username "$ARANGO_USERNAME" --server.password "$ARANGO_PASSWORD" "$@" --overwrite true
+  $ARANGOIMPORT --type csv --collection "$collection" --separator "|" --create-collection true --create-collection-type "$type" --file "$file" --server.endpoint "$ARANGO_ENDPOINT" --server.database "$ARANGO_DATABASE" --server.username "$ARANGO_USERNAME" --server.password "$ARANGO_PASSWORD" "$@"
   import_result=$?
 }
 
