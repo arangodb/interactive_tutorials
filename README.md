@@ -1,1 +1,1 @@
-This branch contains data for the ArangoML movie recommendation demo project.
+This branch contains source data for the ArangoML movie recommendation demo project.
