@@ -44,6 +44,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Graph Analytics: Retail Part 4 - Descriptive Analytics, continued](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_DA_II.ipynb)
 * [Graph Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Embeddings.ipynb)
 * [NetworkX Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
+* [Integrate ArangoDB to PyTorchGeometric to Build Recommendation Systems](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Integrate_ArangoDB_with_PyG.ipynb)
 * [Pregel Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Pregel.ipynb)
 * [R Language with ArangoDB](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/R_ArangoDB_Managed_Service_Notebook.ipynb)
 * [SatelliteGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/SatelliteGraphs.ipynb)
