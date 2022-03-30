@@ -8,15 +8,17 @@ Here you will find tutorials and interactive notebooks for ArangoDB features. Th
 There are a few sections for getting started with Interactive Tutorials:
 * [Machine Learning](#machine-learning): Links to the various ArangoDB machine learning projects and learning content.
 * [ArangoDB](#arangodb): The interactive tutorials maintained in this repo that cover all aspects of ArangoDB.
+* [Community Notebooks](#community-notebooks): Amazing submissions from the community!
 * [Workshop Repositories](#workshop-repositories): Links to the repositories associated with ArangoDB workshops.
-* [Feedback](#feedback): Feel free to leave use feedback.
+* [Feedback](#feedback): Feel free to leave us feedback.
 * [Contribute](#contribute): Learn how to contribute your own learning content.
 
 
 ### Machine Learning
 In addition to the notebooks listed in the following section, we have example machine learning notebooks with [ArangoML](https://github.com/arangoml), including:
 * [ArangoML Pipeline](https://github.com/arangoml/arangopipe/tree/master/examples)
-* [ArangoDB NetworkX Adapter](https://github.com/arangoml/networkx-adapter/tree/master/examples)
+* [ArangoDB NetworkX Adapter](https://github.com/arangoml/networkx-adapter)
+    * [Getting Started Notebook](https://colab.research.google.com/github/arangoml/networkx-adapter/blob/master/examples/ArangoDB_NetworkX_Adapter.ipynb)
 
 
 ### ArangoDB 
@@ -27,31 +29,41 @@ Most notebooks were developed with Google Colab in mind and many have an [![](ht
 The following links will open the notebooks directly in Google Colab, the source files are located in [the notebooks folder](https://github.com/arangodb/interactive_tutorials/tree/master/notebooks).
 * [AQL CRUD Part 1](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlCrudTutorial.ipynb)
 * [AQL CRUD Part 2](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlPart2Tutorial.ipynb)
-* [AQL Geospatial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlGeospatialTutorial.ipynb)
 * [AQL Joins](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlJoinTutorial.ipynb)
 * [AQL Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlTraversalTutorial.ipynb)
+* [AQL Geospatial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlGeospatialTutorial.ipynb)
 * [ArangoBnB Data Preparation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoBnB_simple_data_exploration.ipynb)
 * [ArangoSearch](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearch.ipynb)
 * [ArangoSearch Part 2: Advanced Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearchOnGraphs.ipynb)
 * [Best Practices Guide](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/BestPractices.ipynb)
-* [Collaborative Filtering](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Collaborative_Filtering.ipynb)
 * [Comprehensive GraphSage Guide with PyTorchGeometric and Amazon Product Recommendation Dataset](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Comprehensive_GraphSage_Guide_with_PyTorchGeometric.ipynb)
 * [Fuzzy Search](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/FuzzySearch.ipynb)
 * [Game of Thrones AQL Tutorial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_GOT_Tutorial.ipynb)
+* [Graph Analytics: Collaborative Filtering](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Collaborative_Filtering.ipynb)
+* [Graph Analytics: Entity Resolution](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/EntityResolution.ipynb)
 * [Graph Analytics: Retail Part 1 - Data Exploration](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_EDA_I.ipynb)
 * [Graph Analytics: Retail Part 2 - Feature Selection & RFM](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_EDA_II.ipynb)
 * [Graph Analytics: Retail Part 3 - Descriptive Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_DA_I.ipynb)
 * [Graph Analytics: Retail Part 4 - Descriptive Analytics, continued](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Retail_DA_II.ipynb)
 * [Graph Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Embeddings.ipynb)
-* [NetworkX Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
+* [Graph Visualization using Graphistry](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_Graphistry_Visualization.ipynb)
+* [Hybrid SmartGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/HybridSmartGraphs.ipynb)
 * [Integrate ArangoDB to PyTorchGeometric to Build Recommendation Systems](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Integrate_ArangoDB_with_PyG.ipynb)
+* [NetworkX IMDB Graph Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
 * [Pregel Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Pregel.ipynb)
+* [RDF Import Example](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/RDF_Import_Example.ipynb)
 * [R Language with ArangoDB](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/R_ArangoDB_Managed_Service_Notebook.ipynb)
 * [SatelliteGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/SatelliteGraphs.ipynb)
 * [Schema Validation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Schema_Validation.ipynb)
 * [Upsert](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Upsert.ipynb)
+* [Window - Time Series Aggregation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Window.ipynb)
 * [Word Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/WordEmbeddings.ipynb)
 
+### Community Notebooks
+If you have a use case you would like to show off or even a quick tutorial for an ArangoDB feature, this would be very helpful to the ArangoDB community. It's easy to get started with our [Template.ipynb](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/Template.ipynb), which shows you how to use the tutorial endpoint in your notebooks. When ready, open a PR with your submission, and we will add it to the list, share it with the community, and be eternally grateful.
+
+ **Notebooks**:
+* [Criando e analisando dados com AQL](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/community_notebooks/BD_g01_ArangoDB.ipynb) - Submitted by [janiosl](https://github.com/janiosl)
 
 ### Workshop Repositories
 The following is a list of workshops given that cover topics related to ArangoDB.
