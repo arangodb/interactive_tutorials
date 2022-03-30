@@ -48,6 +48,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [Graph Embeddings](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Graph_Embeddings.ipynb)
 * [Graph Visualization using Graphistry](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_Graphistry_Visualization.ipynb)
 * [Hybrid SmartGraphs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/HybridSmartGraphs.ipynb)
+* [Integrate ArangoDB to PyTorchGeometric to Build Recommendation Systems](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Integrate_ArangoDB_with_PyG.ipynb)
 * [NetworkX IMDB Graph Analytics](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_NetworkX_Interface_Introduction.ipynb)
 * [Pregel Introduction](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Pregel.ipynb)
 * [RDF Import Example](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/RDF_Import_Example.ipynb)
