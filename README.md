@@ -1,6 +1,6 @@
 # ArangoDB Interactive Tutorials
 
-![ArangoDB-Logo](https://www.arangodb.com/docs/assets/arangodb_logo_2016_inverted.png)
+![ArangoDB-Logo](https://www.arangodb.com/docs/assets/ArangoDB_Logo_White.png)
 
 Here you will find tutorials and interactive notebooks for ArangoDB features. These notebooks allow you to learn about ArangoDB concepts and features without the need to install or sign up for anything. Each notebook uses a free temporary tutorial database that lets you focus on all the cool things ArangoDB has to offer.
 
