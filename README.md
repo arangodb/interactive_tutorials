@@ -19,7 +19,7 @@ In addition to the notebooks listed in the following section, we have example ma
 * [ArangoML Pipeline](https://github.com/arangoml/arangopipe/tree/master/examples)
 * [ArangoDB NetworkX Adapter](https://github.com/arangoml/networkx-adapter)
     * [Getting Started Notebook](https://colab.research.google.com/github/arangoml/networkx-adapter/blob/master/examples/ArangoDB_NetworkX_Adapter.ipynb)
-* ArangoFlix: Movie Recommendations [Demo available on Oasis](https://cloud.arangodb.com/)
+* ArangoFlix: Movie Recommendations [Demo available on ArangoGraph cloud Platform](https://cloud.arangodb.com/)
     * [Collaborative Filtering with AQL](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/recommend_movie_collaborative_filtering_aql.ipynb)
     * [Content-based Recommendations with ArangoSearch and TFIDF](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/similarMovie_TFIDF_AQL_Inference.ipynb)
     * [Content-based Recommendations with FAISS, TFIDF, and Python](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/similarMovie_TFIDF_ML_Inference.ipynb)
