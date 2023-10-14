@@ -24,7 +24,7 @@ In addition to the notebooks listed in the following section, we have example ma
     * [Content-based Recommendations with FAISS, TFIDF, and Python](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/similarMovie_TFIDF_ML_Inference.ipynb)
     * [Graph Neural Networks with PyTorch](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/predict_Movie_Rating_GNN.ipynb)
     * [Matrix Factorization](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/similarMovie_MF_ML_Inference.ipynb)
-* LangChain Integration: [Question-Answering with LLMs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/Langchain.ipynb)
+* LangChain Integration: [Question-Answering with LLMs](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/example_output/Langchain_output.ipynb)
 
 ### ArangoDB 
 These notebooks are interactive and take the hands-on learning approach, so feel free to play around and change things. Each notebook provides an intoduction to its covered topics along with the ability to immediately see it in action. 
