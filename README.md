@@ -32,7 +32,6 @@ These notebooks are interactive and take the hands-on learning approach, so feel
 Most notebooks were developed with Google Colab in mind and many have an [![](https://colab.research.google.com/assets/colab-badge.svg)](#) button. 
 
 The following links will open the notebooks directly in Google Colab, the source files are located in [the notebooks folder](https://github.com/arangodb/interactive_tutorials/tree/master/notebooks).
-* [ArangoDB 101](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_101.ipynb)
 * [AQL CRUD Part 1](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlCrudTutorial.ipynb)
 * [AQL CRUD Part 2](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlPart2Tutorial.ipynb)
 * [AQL Joins](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlJoinTutorial.ipynb)
@@ -40,6 +39,7 @@ The following links will open the notebooks directly in Google Colab, the source
 * [AQL Geospatial](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlGeospatialTutorial.ipynb)
 * [AQL 2022 Review](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AQL_2022.ipynb)
 * [ArangoBnB Data Preparation](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoBnB_simple_data_exploration.ipynb)
+* [ArangoDB 101](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_101.ipynb)
 * [ArangoSearch](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearch.ipynb)
 * [ArangoSearch Part 2: Advanced Graph Traversal](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoSearchOnGraphs.ipynb)
 * [Best Practices Guide](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/BestPractices.ipynb)
