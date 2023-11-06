@@ -32,6 +32,7 @@ These notebooks are interactive and take the hands-on learning approach, so feel
 Most notebooks were developed with Google Colab in mind and many have an [![](https://colab.research.google.com/assets/colab-badge.svg)](#) button. 
 
 The following links will open the notebooks directly in Google Colab, the source files are located in [the notebooks folder](https://github.com/arangodb/interactive_tutorials/tree/master/notebooks).
+* [ArangoDB 101](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/ArangoDB_101.ipynb)
 * [AQL CRUD Part 1](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlCrudTutorial.ipynb)
 * [AQL CRUD Part 2](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlPart2Tutorial.ipynb)
 * [AQL Joins](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/AqlJoinTutorial.ipynb)
