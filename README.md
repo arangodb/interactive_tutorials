@@ -6,7 +6,7 @@ Here you will find tutorials and interactive notebooks for ArangoDB features. Th
 
 ## Learn
 There are a few sections for getting started with Interactive Tutorials:
-* [Machine Learning](#machine-learning): Links to the various ArangoDB machine learning projects and learning content.
+* [Machine Learning](#machine-learning): Links to the various ArangoDB machine-learning projects and learning content.
 * [ArangoDB](#arangodb): The interactive tutorials maintained in this repo that cover all aspects of ArangoDB.
 * [Community Notebooks](#community-notebooks): Amazing submissions from the community!
 * [Workshop Repositories](#workshop-repositories): Links to the repositories associated with ArangoDB workshops.
@@ -24,12 +24,12 @@ In addition to the notebooks listed in the following section, we have example ma
     * [Content-based Recommendations with FAISS, TFIDF, and Python](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/similarMovie_TFIDF_ML_Inference.ipynb)
     * [Graph Neural Networks with PyTorch](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/predict_Movie_Rating_GNN.ipynb)
     * [Matrix Factorization](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/arangoflix/similarMovie_MF_ML_Inference.ipynb)
-* ArangoDB + LangChain
+* ArangoDB + LangChain + LlamaIndex
     * [Question-Answering with LLMs (Basics)](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/example_output/Langchain_output.ipynb)
-    * [Question-Answering with LLMs (Complete Guide)](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/example_output/Langchain_Full_output.ipynb)
+    * [Question-Answering with LLMs (Complete Guide including LlamaIndex)](https://colab.research.google.com/github/arangodb/interactive_tutorials/blob/master/notebooks/example_output/Langchain_Full_output.ipynb)
 
 ### ArangoDB 
-These notebooks are interactive and take the hands-on learning approach, so feel free to play around and change things. Each notebook provides an intoduction to its covered topics along with the ability to immediately see it in action. 
+These notebooks are interactive and take the hands-on learning approach, so feel free to play around and change things. Each notebook provides an intoduction to its covered topics along with the ability to see it in action immediately. 
 
 Most notebooks were developed with Google Colab in mind and many have an [![](https://colab.research.google.com/assets/colab-badge.svg)](#) button. 
 
